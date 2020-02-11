@@ -11,7 +11,7 @@ app.listen(process.env.PORT || 8080); //localhost/8080 if it fails
 
 //Start Angular App via index file
 app.get('/*', function(req,res){
-    res.sendFile(path.join(__dirname + 'dist/demohood/index.html'));
+    res.sendFile(path.join(__dirname + '/dist/demohood/index.html'));
 })
 
 console.log('Console listening on port 8080');
