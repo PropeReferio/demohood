@@ -1,0 +1,4 @@
+"changes" : {"line 6: 'start': 'node server', // Changed this from ng serve",
+              "line 7: 'build': 'ng build --prod --aot --optimization=false --output-path demohood', // Changed from ng build",
+              "line 11: 'postinstall': 'ng build --prod --aot --optimization=false' //added this line",
+              "added line 26, 55-58"}
